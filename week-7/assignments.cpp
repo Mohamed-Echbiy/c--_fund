@@ -308,11 +308,12 @@ void ch_13()
 
     cout << fName + mName + lName << "\n";
     cout << fName.append(mName.append(lName));
+    // cout << fName
     // Output Needed
     // Elzero Web School
     //     Elzero Web School
     //         Elzero Web School
-}
+};
 
 int main()
 {
@@ -338,6 +339,8 @@ int main()
     ch_10();
     cout << "------------------\n";
     ch_11();
+    cout << "------------------\n";
+    ch_12();
     cout << "------------------\n";
 
     return 0;
